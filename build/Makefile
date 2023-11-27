@@ -1660,6 +1660,30 @@ C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+Eeprom/eeprom.obj: Eeprom/eeprom.c.obj
+.PHONY : Eeprom/eeprom.obj
+
+# target to build an object file
+Eeprom/eeprom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/Eeprom/eeprom.c.obj
+.PHONY : Eeprom/eeprom.c.obj
+
+Eeprom/eeprom.i: Eeprom/eeprom.c.i
+.PHONY : Eeprom/eeprom.i
+
+# target to preprocess a source file
+Eeprom/eeprom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/Eeprom/eeprom.c.i
+.PHONY : Eeprom/eeprom.c.i
+
+Eeprom/eeprom.s: Eeprom/eeprom.c.s
+.PHONY : Eeprom/eeprom.s
+
+# target to generate assembly for a file
+Eeprom/eeprom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/Eeprom/eeprom.c.s
+.PHONY : Eeprom/eeprom.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -1882,6 +1906,9 @@ help:
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... Eeprom/eeprom.obj
+	@echo ... Eeprom/eeprom.i
+	@echo ... Eeprom/eeprom.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -126,6 +126,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
   "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
+  "CMakeFiles/EEPROM.dir/Eeprom/eeprom.c.obj"
+  "CMakeFiles/EEPROM.dir/Eeprom/eeprom.c.obj.d"
   "CMakeFiles/EEPROM.dir/main.c.obj"
   "CMakeFiles/EEPROM.dir/main.c.obj.d"
   "EEPROM.elf"

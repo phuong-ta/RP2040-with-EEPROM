@@ -177,6 +177,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
+  "C:/VSARM/sdk/pico/RP2040-with-EEPROM/Eeprom/eeprom.c" "CMakeFiles/EEPROM.dir/Eeprom/eeprom.c.obj" "gcc" "CMakeFiles/EEPROM.dir/Eeprom/eeprom.c.obj.d"
   "C:/VSARM/sdk/pico/RP2040-with-EEPROM/main.c" "CMakeFiles/EEPROM.dir/main.c.obj" "gcc" "CMakeFiles/EEPROM.dir/main.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/EEPROM.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
