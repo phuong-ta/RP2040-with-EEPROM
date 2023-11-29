@@ -180,6 +180,30 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+BTN/BTN.obj: BTN/BTN.c.obj
+.PHONY : BTN/BTN.obj
+
+# target to build an object file
+BTN/BTN.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/BTN/BTN.c.obj
+.PHONY : BTN/BTN.c.obj
+
+BTN/BTN.i: BTN/BTN.c.i
+.PHONY : BTN/BTN.i
+
+# target to preprocess a source file
+BTN/BTN.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/BTN/BTN.c.i
+.PHONY : BTN/BTN.c.i
+
+BTN/BTN.s: BTN/BTN.c.s
+.PHONY : BTN/BTN.s
+
+# target to generate assembly for a file
+BTN/BTN.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/BTN/BTN.c.s
+.PHONY : BTN/BTN.c.s
+
 C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -1684,6 +1708,30 @@ Eeprom/eeprom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/Eeprom/eeprom.c.s
 .PHONY : Eeprom/eeprom.c.s
 
+LED/LED.obj: LED/LED.c.obj
+.PHONY : LED/LED.obj
+
+# target to build an object file
+LED/LED.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/LED/LED.c.obj
+.PHONY : LED/LED.c.obj
+
+LED/LED.i: LED/LED.c.i
+.PHONY : LED/LED.i
+
+# target to preprocess a source file
+LED/LED.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/LED/LED.c.i
+.PHONY : LED/LED.c.i
+
+LED/LED.s: LED/LED.c.s
+.PHONY : LED/LED.s
+
+# target to generate assembly for a file
+LED/LED.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/LED/LED.c.s
+.PHONY : LED/LED.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -1721,6 +1769,9 @@ help:
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 	@echo ... EEPROM
 	@echo ... bs2_default
+	@echo ... BTN/BTN.obj
+	@echo ... BTN/BTN.i
+	@echo ... BTN/BTN.s
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
@@ -1909,6 +1960,9 @@ help:
 	@echo ... Eeprom/eeprom.obj
 	@echo ... Eeprom/eeprom.i
 	@echo ... Eeprom/eeprom.s
+	@echo ... LED/LED.obj
+	@echo ... LED/LED.i
+	@echo ... LED/LED.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

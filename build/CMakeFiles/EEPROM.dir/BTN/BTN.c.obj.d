@@ -1,5 +1,6 @@
-CMakeFiles/EEPROM.dir/main.c.obj: \
- C:\VSARM\sdk\pico\RP2040-with-EEPROM\main.c \
+CMakeFiles/EEPROM.dir/BTN/BTN.c.obj: \
+ C:\VSARM\sdk\pico\RP2040-with-EEPROM\BTN\BTN.c \
+ C:\VSARM\sdk\pico\RP2040-with-EEPROM\BTN\BTN.h \
  c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\stdio.h \
  c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\_ansi.h \
  c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\newlib.h \
@@ -58,10 +59,4 @@ CMakeFiles/EEPROM.dir/main.c.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/uart.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
- C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
- C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\include/hardware/i2c.h \
- C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/i2c.h \
- C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h \
- C:\VSARM\sdk\pico\RP2040-with-EEPROM\Eeprom/eeprom.h \
- C:\VSARM\sdk\pico\RP2040-with-EEPROM\BTN/BTN.h \
- C:\VSARM\sdk\pico\RP2040-with-EEPROM\LED/LED.h
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h

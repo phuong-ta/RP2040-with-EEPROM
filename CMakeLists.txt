@@ -22,6 +22,8 @@ add_compile_options(-Wall
 add_executable(${PROJECT_NAME} 
     main.c
     Eeprom/eeprom.c
+    BTN/BTN.c
+    LED/LED.c
 )
 
 # Create map/bin/hex/uf2 files
