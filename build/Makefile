@@ -1732,6 +1732,30 @@ LED/LED.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/LED/LED.c.s
 .PHONY : LED/LED.c.s
 
+LED_STATE/LED_STATE.obj: LED_STATE/LED_STATE.c.obj
+.PHONY : LED_STATE/LED_STATE.obj
+
+# target to build an object file
+LED_STATE/LED_STATE.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/LED_STATE/LED_STATE.c.obj
+.PHONY : LED_STATE/LED_STATE.c.obj
+
+LED_STATE/LED_STATE.i: LED_STATE/LED_STATE.c.i
+.PHONY : LED_STATE/LED_STATE.i
+
+# target to preprocess a source file
+LED_STATE/LED_STATE.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/LED_STATE/LED_STATE.c.i
+.PHONY : LED_STATE/LED_STATE.c.i
+
+LED_STATE/LED_STATE.s: LED_STATE/LED_STATE.c.s
+.PHONY : LED_STATE/LED_STATE.s
+
+# target to generate assembly for a file
+LED_STATE/LED_STATE.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EEPROM.dir\build.make CMakeFiles/EEPROM.dir/LED_STATE/LED_STATE.c.s
+.PHONY : LED_STATE/LED_STATE.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -1963,6 +1987,9 @@ help:
 	@echo ... LED/LED.obj
 	@echo ... LED/LED.i
 	@echo ... LED/LED.s
+	@echo ... LED_STATE/LED_STATE.obj
+	@echo ... LED_STATE/LED_STATE.i
+	@echo ... LED_STATE/LED_STATE.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

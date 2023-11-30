@@ -24,6 +24,7 @@ add_executable(${PROJECT_NAME}
     Eeprom/eeprom.c
     BTN/BTN.c
     LED/LED.c
+    LED_STATE/LED_STATE.c
 )
 
 # Create map/bin/hex/uf2 files

@@ -132,6 +132,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EEPROM.dir/Eeprom/eeprom.c.obj.d"
   "CMakeFiles/EEPROM.dir/LED/LED.c.obj"
   "CMakeFiles/EEPROM.dir/LED/LED.c.obj.d"
+  "CMakeFiles/EEPROM.dir/LED_STATE/LED_STATE.c.obj"
+  "CMakeFiles/EEPROM.dir/LED_STATE/LED_STATE.c.obj.d"
   "CMakeFiles/EEPROM.dir/main.c.obj"
   "CMakeFiles/EEPROM.dir/main.c.obj.d"
   "EEPROM.elf"

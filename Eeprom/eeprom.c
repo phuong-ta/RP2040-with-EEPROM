@@ -18,6 +18,7 @@ void eeprom_write(uint16_t address, uint8_t data) {
 uint8_t eeprom_read(uint16_t address) {
     uint8_t buffer[2] = {address >> 8, address & 0xFF};
     i2c_write_blocking(I2C_PORT, I2C_ADDRESS, buffer, sizeof(buffer), true);
+    sleep_ms(10);
     i2c_read_blocking(I2C_PORT, I2C_ADDRESS, buffer, 1, false);
     return buffer[0];
 }
